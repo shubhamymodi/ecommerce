@@ -18,7 +18,7 @@ function App() {
     <div className="App" >
      {/* <img src={msd} alt="bg" style={{zIndex: "-1", width:"100%", height:"800px",filter: "brightness(0.5)"}} /> */}
     {/* <Menu /> */}
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
     
     <Switch>
 
